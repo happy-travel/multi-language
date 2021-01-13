@@ -133,6 +133,7 @@ namespace HappyTravel.MultiLanguage
 
             var defaultLanguageCode = LanguagesHelper.GetLanguageCode(LanguagesHelper.DefaultLanguage);
             TryGetValue(defaultLanguageCode, out value);
+
             return value;
         }
 
