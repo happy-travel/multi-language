@@ -7,8 +7,8 @@
         <Authors>Oleg Konovalov, Hasmik Harutyunyan, Kirill Taran</Authors>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.0.0</Version>
-        <PackageReleaseNotes>Added MultiLanguage</PackageReleaseNotes>
+        <Version>1.0.1</Version>
+        <PackageReleaseNotes>Changed TryGetValueOrDefault to GetValueOrDefault</PackageReleaseNotes>
         <Description>MultiLanguage class library</Description>
         <PackageProjectUrl>https://github.com/happy-travel/multi-language</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/multi-language</RepositoryURL>

@@ -126,14 +126,15 @@ namespace HappyTravel.MultiLanguage
         }
 
 
-        public bool TryGetValueOrDefault(string languageCode, out T value)
+        public T GetValueOrDefault(string languageCode)
         {
-            if (TryGetValue(languageCode, out value))
-                return true;
+            if (TryGetValue(languageCode, out var value))
+                return value;
 
             var defaultLanguageCode = LanguagesHelper.GetLanguageCode(LanguagesHelper.DefaultLanguage);
+            TryGetValue(defaultLanguageCode, out value);
 
-            return TryGetValue(defaultLanguageCode, out value);
+            return value;
         }
 
 
