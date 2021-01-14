@@ -8,7 +8,7 @@
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>1.0.2</Version>
-        <PackageReleaseNotes>Added MultiLanguage</PackageReleaseNotes>
+        <PackageReleaseNotes>Fixed bug in Equals method</PackageReleaseNotes>
         <Description>MultiLanguage class library</Description>
         <PackageProjectUrl>https://github.com/happy-travel/multi-language</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/multi-language</RepositoryURL>
